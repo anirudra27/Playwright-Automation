@@ -24,7 +24,7 @@ test('Dropdown test', async({page})=>{
 
     //Assertion to check the presence of value using loop
 
-    const options = await page.$$("#country option")
+    //const options = await page.$$("#country option")
     let status=false;
     for(const option of options){
         let value=await option.textContent();
