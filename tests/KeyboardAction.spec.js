@@ -15,7 +15,7 @@ test('Alert message', async({page})=>{
     await page.keyboard.press('Meta+C');
 
     //Tab
-    await page.keyboard.down(Tab);
+    await page.keyboard.down('Tab');
 
     //Ctrl+V
     await page.keyboard.press('Meta+V');
